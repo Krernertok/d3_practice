@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Experiments</title>
+    <script type="text/javascript" charset="utf-8" src="js/d3.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+    <div id="answer-container">
+        <svg id="answers"></svg>
+        <div id="correct-answers" class="hidden"><span></span></div>
+        <div id="triangle" class="hidden"></div>
+        <svg id="pack">
+            <defs>
+                <filter id="drop-shadow" height="130%">
+                    <feGaussianBlur in="SourceAlpha" stdDeviation="5" result="blur"></feGaussianBlur>
+                    <feOffset in="blur" dx="0" dy="5" result="offsetBlur"></feOffset>
+                    <feComponentTransfer>
+                        <feFuncA type="linear" slope="0.1"></feFuncA>
+                    </feComponentTransfer>
+                    <feMerge>
+                        <feMergeNode in="offsetBlur"></feMergeNode>
+                        <feMergeNode in="SourceGraphic"></feMergeNode>
+                    </feMerge>
+                </filter>
+            </defs>
+        </svg>
+    </div>
+    <script type="text/javascript" src="js/answers.js"></script>
+</body>
+</html>

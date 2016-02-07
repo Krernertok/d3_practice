@@ -1,0 +1,11 @@
+{
+    "answers": [
+        {"order": 1, "date": "2015-01-01 18:30:01", "correct": 0.13, "answers": 10},
+        {"order": 2, "date": "2015-01-02 18:32:14", "correct": 0.20, "answers": 13},
+        {"order": 3, "date": "2015-01-03 18:35:56", "correct": 0.28, "answers": 15},
+        {"order": 4, "date": "2015-01-04 17:15:37", "correct": 0.24, "answers": 20},
+        {"order": 5, "date": "2015-02-04 19:01:41", "correct": 0.20, "answers": 30},
+        {"order": 6, "date": "2015-03-12 16:40:05", "correct": 0.46, "answers": 40},
+        {"order": 7, "date": "2015-03-13 16:46:51", "correct": 0.52, "answers": 50}
+    ]
+}

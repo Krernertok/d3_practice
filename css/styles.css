@@ -1,0 +1,99 @@
+line {
+    shape-rendering: crispEdges;
+}
+
+.axis path {
+    fill: none;
+    stroke: lightgray;
+    stroke-width: 1px;
+}
+
+.tick text {
+    font-family: sans-serif;
+    font-size: 10pt;
+    fill: gray;
+}
+
+path.line {
+    stroke-width: 2px;
+    stroke: orangered;
+    fill: none;
+}
+
+circle {
+    fill: orangered;
+}
+
+rect {
+    fill: orangered;
+}
+
+.tick line {
+    stroke: lightgray;
+    stroke-width: 1px;
+}
+
+#timeline-button {
+    margin-top: 5px;
+    display: block;
+}
+
+.y.axis path {
+    stroke: none;
+}
+
+
+#correct-answers {
+    position: absolute;
+    width: 120px;
+    height: auto;
+    padding: 5px;
+    background-color: white;
+    
+    border: 1px solid orangered;
+    border-radius: 5px;
+    
+    pointer-events: none;
+    text-align: center;
+
+}
+
+.hidden {
+        display: none;
+}
+
+#correct-answers span {
+    display: inline-block;
+    
+    margin: 0 auto;
+    
+    font-family: sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+
+    color: orangered;
+}
+
+#answer-container {
+    position: relative;
+}
+
+#triangle {
+    position: absolute;    
+
+    width: 0; 
+    height: 0; 
+    border-top: 5px solid orangered;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+
+}
+
+#pack {
+    shape-rendering: auto;
+}
+
+#pack text {
+    text-anchor: middle;
+    pointer-events: none;
+}
